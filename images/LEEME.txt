@@ -1,0 +1,140 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║           GRUPO AMSO — GUÍA DE IMÁGENES                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Para agregar una imagen: copia el archivo con el nombre exacto indicado
+en la carpeta correcta. El sitio la muestra automáticamente.
+Si el archivo no existe → placeholder automático, el sitio no se rompe.
+
+══════════════════════════════════════════════════════════════════════
+IMÁGENES PRINCIPALES DEL SITIO  (carpeta: images/)
+══════════════════════════════════════════════════════════════════════
+
+  logo.png
+  ├── Usado en: Navbar, Footer, Hero, About
+  ├── Formato:  PNG con fondo transparente
+  └── Tamaño:   400×150 px mínimo
+
+  hero.jpg
+  ├── Usado en: Sección Hero de la página principal (lado derecho)
+  ├── Formato:  JPG o WebP
+  └── Tamaño:   1200×900 px recomendado, máx 400 KB
+
+  about.jpg
+  ├── Usado en: Página About Us (lado izquierdo)
+  ├── Formato:  JPG o WebP
+  └── Tamaño:   900×700 px recomendado, máx 300 KB
+
+Para cambiar estas rutas, edita src/data/data.json:
+  "site": {
+    "logo":        { "image": "/images/logo.png"  },
+    "hero_image":  "/images/hero.jpg",
+    "about_image": "/images/about.jpg"
+  }
+
+══════════════════════════════════════════════════════════════════════
+FOTOS DEL EQUIPO  (carpeta: images/team/)
+══════════════════════════════════════════════════════════════════════
+
+  team/ambraham-madriz.jpg      → Ambraham Madriz Solís
+  team/sofia-orozco.jpg         → Sofía Orozco
+  team/carlos-vargas.jpg        → Carlos Vargas
+  team/daniela-solano.jpg       → Daniela Solano
+
+  Formato: JPG cuadrado, 400×400 px, máx 100 KB
+  Si no existe → muestra las iniciales (AM, SO, CV, DS)
+
+══════════════════════════════════════════════════════════════════════
+FOTOS DE PROYECTOS  (carpeta: images/projects/)
+══════════════════════════════════════════════════════════════════════
+
+Cada proyecto tiene: 1 foto principal + 4 fotos de galería
+
+  COMPLETED — CONSTRUCTION
+  ─────────────────────────
+  projects/coccoloba-jungle-villas.jpg          ← foto principal
+  projects/coccoloba-jungle-villas-1.jpg        ← galería
+  projects/coccoloba-jungle-villas-2.jpg
+  projects/coccoloba-jungle-villas-3.jpg
+  projects/coccoloba-jungle-villas-4.jpg
+
+  projects/residencia-piedra.jpg
+  projects/residencia-piedra-1.jpg  ...  -4.jpg
+
+  projects/apartamentos-liberia.jpg
+  projects/apartamentos-liberia-1.jpg  ...  -4.jpg
+
+  projects/villas-sanchez-carrillo.jpg
+  projects/villas-sanchez-carrillo-1.jpg  ...  -4.jpg
+
+  projects/residencia-calderon.jpg
+  projects/residencia-calderon-1.jpg  ...  -4.jpg
+
+  projects/ferreteria-el-puente.jpg
+  projects/ferreteria-el-puente-1.jpg  ...  -4.jpg
+
+  projects/naves-industriales-macopa.jpg
+  projects/naves-industriales-macopa-1.jpg  ...  -4.jpg
+
+  projects/residencia-quiros.jpg
+  projects/residencia-quiros-1.jpg  ...  -4.jpg
+
+  projects/restaurante-trini.jpg
+  projects/restaurante-trini-1.jpg  ...  -4.jpg
+
+  COMPLETED — POOLS
+  ──────────────────
+  projects/residencia-mejia.jpg
+  projects/residencia-mejia-1.jpg  ...  -4.jpg
+
+  projects/hotel-fiesta-pool.jpg
+  projects/hotel-fiesta-pool-1.jpg  ...  -4.jpg
+
+  projects/residencia-suenos-pool.jpg
+  projects/residencia-suenos-pool-1.jpg  ...  -4.jpg
+
+  CONSTRUCTION DRAWINGS
+  ──────────────────────
+  projects/residencia-morua.jpg
+  projects/residencia-morua-1.jpg  ...  -4.jpg
+
+  projects/residencia-artavia-rojas.jpg
+  projects/residencia-artavia-rojas-1.jpg  ...  -4.jpg
+
+  projects/residencia-segura.jpg
+  projects/residencia-segura-1.jpg  ...  -4.jpg
+
+  projects/residencia-arias.jpg
+  projects/residencia-arias-1.jpg  ...  -4.jpg
+
+  projects/residencia-soto-arce.jpg
+  projects/residencia-soto-arce-1.jpg  ...  -4.jpg
+
+  UPCOMING PROJECTS
+  ──────────────────
+  projects/bodegas-fome.jpg
+  projects/bodegas-fome-1.jpg  ...  -4.jpg
+
+  projects/bodegas-lindora.jpg
+  projects/bodegas-lindora-1.jpg  ...  -4.jpg
+
+  projects/locales-huacas.jpg
+  projects/locales-huacas-1.jpg  ...  -4.jpg
+
+  projects/piscinas-hg.jpg
+  projects/piscinas-hg-1.jpg  ...  -4.jpg
+
+  projects/casa-valdelomar-cortes.jpg
+  projects/casa-valdelomar-cortes-1.jpg  ...  -4.jpg
+
+  Formato: JPG o WebP
+  Foto principal:  800×600 px, máx 200 KB
+  Fotos galería:  1200×800 px, máx 300 KB
+
+══════════════════════════════════════════════════════════════════════
+REGLA GENERAL
+══════════════════════════════════════════════════════════════════════
+  • El nombre del archivo debe coincidir EXACTAMENTE con el valor
+    "image" en data.json (incluyendo minúsculas y guiones)
+  • Si una imagen no existe → placeholder automático, sin errores
+  • Para cambiar el nombre de un archivo, actualiza data.json también
