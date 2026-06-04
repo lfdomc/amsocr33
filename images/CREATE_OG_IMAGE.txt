@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════
+  OG IMAGE — REQUIRED FOR WHATSAPP PREVIEW CARD
+═══════════════════════════════════════════════════════════
+
+When someone shares your website link on WhatsApp, it shows
+a preview card with an image. This image is: og-image.jpg
+
+WHAT TO CREATE:
+  File: public/images/og-image.jpg
+  Size: 1200 × 630 pixels (exact, very important)
+  Format: JPG, max 300 KB
+
+WHAT IT SHOULD LOOK LIKE:
+  - Dark background (#0f0f0f or similar)
+  - Your AMSO logo centered or top-left
+  - Tagline: "Construction Company · Guanacaste, Costa Rica"
+  - A beautiful construction/architecture photo in the background
+  - Orange accent color (#F97316)
+
+QUICK OPTION — Use Canva (free):
+  1. Go to canva.com → Create → Custom size → 1200 × 630 px
+  2. Dark background
+  3. Add your logo
+  4. Add text: "Grupo AMSO | Construction in Guanacaste, Costa Rica"
+  5. Download as JPG
+  6. Save as: public/images/og-image.jpg
+
+AFTER UPLOADING:
+  Test your WhatsApp preview at:
+  https://developers.facebook.com/tools/debug/
+  (enter your website URL and click "Scrape Again")
+
+NOTE: WhatsApp caches OG images aggressively.
+If you change the image, use the debugger above to clear the cache.
+═══════════════════════════════════════════════════════════

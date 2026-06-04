@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.grupoamso.com/sitemap.xml
+
+# Block development artifacts
+Disallow: /static/js/*.map
