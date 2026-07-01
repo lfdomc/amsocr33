@@ -3,37 +3,37 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://www.grupoamso.com/</loc>
+    <loc>https://www.amsocr.com/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.grupoamso.com/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.grupoamso.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.amsocr.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.amsocr.com/es/"/>
   </url>
 
   <url>
-    <loc>https://www.grupoamso.com/services</loc>
+    <loc>https://www.amsocr.com/services</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.grupoamso.com/projects</loc>
+    <loc>https://www.amsocr.com/projects</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.grupoamso.com/about</loc>
+    <loc>https://www.amsocr.com/about</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.grupoamso.com/contact</loc>
+    <loc>https://www.amsocr.com/contact</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
